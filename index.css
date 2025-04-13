@@ -1,0 +1,93 @@
+body{
+    background-color: hsl(228, 45%, 44%);
+    display: flex;
+    justify-content: center;
+    /* height: ; */
+    margin: 0;
+}
+
+.content{
+    align-items: center;
+    margin: 10px;
+}
+
+.content h2{
+    color: azure;
+    font-family: sans-serif;
+    margin-top: 15px;
+}
+.content img {
+    width: 100%;
+    border-radius: 10px;
+}
+p{
+    color: rgb(114, 114, 237);
+    margin: 10px;
+    font-family: sans-serif;
+}
+
+h3{
+    color:skyblue;
+}
+
+.content_out{
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 300px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+    /* align-items: center;
+    margin: 15px; */
+}
+
+.price{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+.profile img {
+        width: 30px;
+        height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+
+/* h2 hover effect */
+h2:hover {
+    color: skyblue;
+    transition: color 0.3s ease-in-out;
+}
+
+/* p tag hover effect */
+p:hover {
+    color: skyblue;
+    transition: color 0.3s ease-in-out;
+}
+
+/* h3 hover effect */
+h3:hover {
+    color: skyblue;
+    transition: color 0.3s ease-in-out;
+}
+
+/* image hover effect */
+.content img:hover {
+    background-color: aqua;
+    transition: filter 0.3s ease-in-out;
+}
+
+.profile img:hover {
+    filter: brightness(1.2) drop-shadow(0 0 10px skyblue);
+    transition: filter 0.3s ease-in-out;
+    color: skyblue;
+}
